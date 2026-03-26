@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: "Forum", serif;
+    background-image: url(pic10_processed.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: rgb(237, 230, 237);
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+h1 {
+    text-align: center;
+    color:beige;
+}
+.para h3 {
+    text-align: center;
+    color:gold;
+    font-size: 24px;
+}
+
+
+.section,
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.para {
+    width: 70%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.image img,
+.image1 img {
+    width: 280px;
+    border-radius: 10px;
+}
+
+.video1 {
+    display: flex;
+    justify-content: center;
+    width:150px;
+    margin: 40px 0;
+}
+
